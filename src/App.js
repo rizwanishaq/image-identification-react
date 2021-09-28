@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import DisplayPrediction from "./components/DisplayPrediction";
+import FileUpload from "./components/FileUpload";
+import Header from "./components/Header";
+// import ImageHistory from "./components/ImageHistory";
+import { AppContext } from "./contexts/appContext";
 
 function App() {
+  const { isModelLoading } = AppContext();
+
+  if (isModelLoading) {
+    return <h2>Model Loading...</h2>;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <FileUpload />
+      <DisplayPrediction />
+      {/* <ImageHistory /> */}
     </div>
   );
 }
