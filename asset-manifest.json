@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/image-identification-react/static/css/main.f1e19a1f.chunk.css",
+    "main.js": "/image-identification-react/static/js/main.e493023f.chunk.js",
+    "main.js.map": "/image-identification-react/static/js/main.e493023f.chunk.js.map",
+    "runtime-main.js": "/image-identification-react/static/js/runtime-main.00f9460c.js",
+    "runtime-main.js.map": "/image-identification-react/static/js/runtime-main.00f9460c.js.map",
+    "static/js/2.9d190ba8.chunk.js": "/image-identification-react/static/js/2.9d190ba8.chunk.js",
+    "static/js/2.9d190ba8.chunk.js.map": "/image-identification-react/static/js/2.9d190ba8.chunk.js.map",
+    "index.html": "/image-identification-react/index.html",
+    "static/css/main.f1e19a1f.chunk.css.map": "/image-identification-react/static/css/main.f1e19a1f.chunk.css.map",
+    "static/js/2.9d190ba8.chunk.js.LICENSE.txt": "/image-identification-react/static/js/2.9d190ba8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00f9460c.js",
+    "static/js/2.9d190ba8.chunk.js",
+    "static/css/main.f1e19a1f.chunk.css",
+    "static/js/main.e493023f.chunk.js"
+  ]
+}
